@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <title>FreeMine – Mineração Grátis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>FreeMine</h1>
+  <section id="auth">
+    <input id="email" placeholder="E-mail">
+    <input id="senha" type="password" placeholder="Senha">
+    <button onclick="registrar()">Criar conta</button>
+  </section>
+
+  <section id="dash" style="display:none">
+    <p>Saldo: <strong id="saldo">0.00000000</strong> BTC</p>
+    <p>Hashrate: <strong id="hashrate">0</strong> GH/s</p>
+    <hr>
+    
+    <h3>Simular Depósito</h3>
+    <input id="depValor" placeholder="Valor BTC" step="0.0001">
+    <button onclick="simularDep()">Depositar</button>
+    <hr>
+    
+    <h3>Sacar</h3>
+    <input id="sacEnd" placeholder="Endereço BTC">
+    <input id="sacVal" placeholder="Quantidade">
+    <button onclick="sacar()">Sacar</button>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

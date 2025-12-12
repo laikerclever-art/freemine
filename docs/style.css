@@ -1,0 +1,24 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #111;
+  color: #0f0;
+  text-align: center;
+}
+input, button{
+  padding: 8px;
+  margin: 4px;
+  border-radius: 4px;
+  border: none;
+}
+button{
+  background: #0f0;
+  color: #000;
+  cursor: pointer;
+}
+section{
+  max-width: 320px;
+  margin: auto;
+  padding: 20px;
+  background: #222;
+  border-radius: 8px;
+}
