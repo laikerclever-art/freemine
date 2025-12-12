@@ -1,5 +1,4 @@
-const API = "https://freemine-api.onrender.com";  // troque pela URL real do seu backend depois
-
+const API = "https://freemine-api-1.onrender.com"; 
 async function registrar(){
   const email = document.getElementById("email").value;
   const senha = document.getElementById("senha").value;
